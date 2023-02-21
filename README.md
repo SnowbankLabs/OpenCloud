@@ -6,15 +6,15 @@ Snow Cloud is a free and open-source file server and management system. Snow Clo
 
 ### Server
 
-The backend server is built using [TypeScript](https://www.typescriptlang.org/docs/), [Prisma](https://www.prisma.io/docs), [Apollo Server](https://www.apollographql.com/docs/apollo-server/), and [GraphQL](https://graphql.org/). The source code can be found [here](https://github.com/SnowbankLabs/snow-cloud-server).
+The backend server is built using [TypeScript](https://www.typescriptlang.org/docs/), [Fastify](https://www.fastify.io/docs/latest/), and [Prisma](https://www.prisma.io/docs). The source code can be found [here](https://github.com/SnowbankLabs/snow-cloud-server).
 
 ### Client
 
-The main web client (webui) is built using [TypeScript](https://www.typescriptlang.org/docs/), [Next.js](https://nextjs.org) ([React](https://reactjs.org/)), and [Tailwind](https://tailwindcss.com/). The source code can be found [here](https://github.com/SnowbankLabs/snow-cloud-webui).
+The main web client (webui) is built using [TypeScript](https://www.typescriptlang.org/docs/), [Next.js](https://nextjs.org), [React](https://reactjs.org/), and [Tailwind](https://tailwindcss.com/). The source code can be found [here](https://github.com/SnowbankLabs/snow-cloud-webui).
 
 ### Server-Client Communication
 
-Snow Cloud user-facing clients communicate with the backend server over the Snow Cloud Server REST and GraphQL APIs.
+Snow Cloud user-facing clients communicate with the backend server over the Snow Cloud Server REST API.
 
 ### Authentication Mechanism
 
