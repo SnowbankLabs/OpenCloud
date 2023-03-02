@@ -14,7 +14,7 @@ The main web client (webui) is built using [TypeScript](https://www.typescriptla
 
 ### Server-Client Communication
 
-OpenCloud user-facing clients communicate with the backend server over the Snow Cloud Server REST API.
+OpenCloud user-facing clients communicate with the backend server over the OpenCloud Server REST API.
 
 ### Authentication Mechanism
 
@@ -26,9 +26,9 @@ OpenCloud uses a token-based authentication system. On login, this server return
 
 ### Repositories
 
--   [`OpenCloud`](https://github.com/SnowbankLabs/OpenCloud) : Contains an overview of the Snow Cloud system.
--   [`OpenCloud-Server`](https://github.com/SnowbankLabs/OpenCloud-Server) : Contains source code for the Snow Cloud backend server.
--   [`OpenCloud-WebUI`](https://github.com/SnowbankLabs/OpenCloud-WebUI) : Contains source code for the Snow Cloud web client.
+-   [`OpenCloud`](https://github.com/SnowbankLabs/OpenCloud) : Contains an overview of the OpenCloud system.
+-   [`OpenCloud-Server`](https://github.com/SnowbankLabs/OpenCloud-Server) : Contains source code for the OpenCloud backend server.
+-   [`OpenCloud-WebUI`](https://github.com/SnowbankLabs/OpenCloud-WebUI) : Contains source code for the OpenCloud web client.
 
 ## Legal
 
